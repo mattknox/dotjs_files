@@ -7,3 +7,4 @@
 //   ret = ret || f;
 // }
 // TODO: insert a hook so that I can have rescuetime-like tracking functionality 
+// probably should hook onfocus and onlosefocus or whatever, too.
