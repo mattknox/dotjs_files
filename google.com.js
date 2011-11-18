@@ -1,10 +1,7 @@
 function knoxPostLoad() {
-//  alert("hello");
-  $("#gbg1").parent().innerHTML = "foo"; //.css("display", "none");
-//  alert($("a#gbg1").length);
-//  alert($("#gbg1").length);
+  $("#gbi1").css("visibility", "hidden");
 }
 
 window.knoxPostLoad = knoxPostLoad;
-//setTimeout('window.knoxPostLoad()', 6000);
+setTimeout('window.knoxPostLoad()', 6000);
 
