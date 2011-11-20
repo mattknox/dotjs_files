@@ -1,7 +1,8 @@
-function knoxPostLoad() {
+function googPostLoad() {
   $("#gbi1").css("visibility", "hidden");
+  $("#gbgs1").css("visibility", "hidden");
 }
 
-window.knoxPostLoad = knoxPostLoad;
-setTimeout('window.knoxPostLoad()', 6000);
+window.googPostLoad = googPostLoad;
+setTimeout('window.googPostLoad()', 6000);
 
